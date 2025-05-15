@@ -160,24 +160,25 @@
 				</div>
 				<div class="col-md-5 d-flex" id="orcamento">
 					<div class="appointment-wrap bg-white p-4 p-md-5 d-flex align-items-center">
-						<form action="https://formsubmit.co/ bitmaster22222@gmail.com" method="POST" class="appointment-form ftco-animate">
+						<form action="https://formsubmit.co/bitmaster22222@gmail.com" method="POST"
+							class="appointment-form ftco-animate">
 							<h3>Faça uma cotação</h3>
 							<div class="">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Nome">
+									<input type="text" class="form-control" name="name" placeholder="Nome" required>
 								</div>
 								<div class="form-group">
-									<input type="email" class="form-control" placeholder="Email">
+									<input type="email" class="form-control" name="email" placeholder="Email" required>
 								</div>
 							</div>
 							<div class="">
 								<div class="form-group">
 									<div class="form-group">
-										<input type="tel" class="form-control" placeholder="Telefone - Whatsapp">
+										<input type="tel" class="form-control" name="phone" placeholder="Telefone - Whatsapp">
 									</div>
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Cidade">
+									<input type="text" class="form-control" name="city" placeholder="Cidade">
 								</div>
 							</div>
 							<div class="">
@@ -194,7 +195,8 @@
 							</div>
 							<div class="">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Tipo"></textarea>
+									<textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Tipo"
+										required></textarea>
 								</div>
 								<div class="form-group">
 									<input type="submit" value="Enviar" class="btn btn-secondary py-3 px-4">
@@ -397,18 +399,19 @@
 			</div>
 			<div class="row no-gutters block-9">
 				<div class="col-md-6 order-md-last d-flex">
-					<form action="https://formsubmit.co/ bitmaster22222@gmail.com" class="bg-light p-5 contact-form" method="POST">
+					<form action="https://formsubmit.co/bitmaster22222@gmail.com" class="bg-light p-5 contact-form" method="POST">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Nome">
+							<input type="text" class="form-control" name="name" placeholder="Nome" required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email">
+							<input type="email" class="form-control" name="email" placeholder="Email" required>
 						</div>
 						<div class="form-group">
-							<input type="tel" class="form-control" placeholder="Telefone">
+							<input type="tel" class="form-control" name="phone" placeholder="Telefone">
 						</div>
 						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem"></textarea>
+							<textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem"
+								required></textarea>
 						</div>
 						<div class="form-group">
 							<input type="submit" value="Enviar Mensagem" class="btn btn-secondary py-3 px-5">
