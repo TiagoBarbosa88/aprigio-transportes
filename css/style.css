@@ -278,9 +278,7 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-	-webkit-appearance: button;
-}
+[type="submit"] 
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -300,9 +298,7 @@ input[type="checkbox"] {
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
-input[type="month"] {
-	-webkit-appearance: listbox;
-}
+input[type="month"] 
 
 textarea {
 	overflow: auto;
@@ -338,8 +334,7 @@ progress {
 }
 
 [type="search"] {
-	outline-offset: -2px;
-	-webkit-appearance: none;
+	outline-offset: -2px;	
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -5015,7 +5010,7 @@ input[type="button"].btn-block {
 }
 
 .card-footer {
-	padding: 0.75rem 1.25rem;
+	padding: 0.75rem 0.25rem;
 	background-color: rgba(0, 0, 0, 0.03);
 	border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -11464,7 +11459,7 @@ textarea.form-control {
 .ftco-footer {
 	font-size: 16px;
 	background: #b9d6ff;
-	padding: 7em 0;
+	padding: 1em 0;
 	z-index: 0;
 	position: relative;
 }
@@ -11838,7 +11833,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
 	opacity: 0;
-	-webkit-backface-visibility: hidden;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
